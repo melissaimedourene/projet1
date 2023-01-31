@@ -26,6 +26,6 @@ jobs:
 
         username: clitoral-manner
 
-        password: ${{ secrets.FTP_PASSWORD }}
+        password: ${{ secrets.VOITURE}}
 
         server-dir : public_html/
