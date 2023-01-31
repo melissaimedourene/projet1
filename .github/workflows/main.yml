@@ -22,7 +22,7 @@ jobs:
 
       with:
 
-        server: files.000webhost.com
+        server: ${{ secrets.FTP_SERVER }}
 
         username: ${{ secrets.FTP_USERNAME }}
 
