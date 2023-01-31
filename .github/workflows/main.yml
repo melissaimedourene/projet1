@@ -24,7 +24,7 @@ jobs:
 
         server: files.000webhost.com
 
-        username: clitoral-manner
+        username: ${{ secrets.FTP_USERNAME }}
 
         password: ${{ secrets.VOITURE }}
 
