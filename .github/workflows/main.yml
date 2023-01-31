@@ -22,10 +22,10 @@ jobs:
 
       with:
 
-        server: files.000webhost.com
+      server: ${{ secrets.FTP_SERVER }}
 
-        username: clitoral-manner
+      username: ${{ secrets.FTP_USERNAME }}
 
-        password: PhgUh$a@TKCHccfmflnU
+      password: ${{ secrets.FTP_PASSWORD }}
 
-        server-dir : public_html/
+         server-dir :  public_html/
