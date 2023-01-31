@@ -22,9 +22,9 @@ jobs:
 
       with:
 
-        server: ${{ secrets.FTP_SERVER }}
+        server: files.000webhost.com
 
-        username: ${{ secrets.FTP_USERNAME }}
+        username: clitoral-manner
 
         password: ${{ secrets.FTP_PASSWORD }}
 
